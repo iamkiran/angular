@@ -1,7 +1,7 @@
 # Hooking into the component lifecycle
 
 A component instance has a lifecycle that starts when Angular instantiates the component class and renders the component view along with its child views.
-The lifecycle continues with change detection, as Angular checks to see when data-bound properties change, and updates both the view and the component instance as needed.
+The lifecycle continues with change detection, as Angular checks to see when data-bound properties changed, and updates both the view and the component instance as needed.
 The lifecycle ends when Angular destroys the component instance and removes its rendered template from the DOM.
 Directives have a similar lifecycle, as Angular creates, updates, and destroys instances in the course of execution.
 
